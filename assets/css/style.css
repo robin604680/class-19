@@ -26,4 +26,8 @@ header{
 }
 #device{
     margin-top: 200px;
+}.award-item {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: center;
+    padding: 25px 0;
 }
