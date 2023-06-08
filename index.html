@@ -79,35 +79,40 @@
     </header>
     <main class="">
       <!-- About part -->
-      <div class="container  mt-5">
-        <div class="row">
-          <div class="col-5">
-              <figure>
-                  <img src="./assets/images/kindle.png" class="img-fluid"alt="">
-              </figure>
-          </div>
-          <div class="col-5 p-5">
-              <h2>Look Inside The Book</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus sed, ut a aut quae velit eaque sequi labore culpa?eaque sequi labore culpa eaque sequi labore culpa.
-              <br><br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus sed, ut a aut quae velit eaque sequi labore culpa?eaque sequi labore culpa eaque sequi labore culpa.
-              </p>
-              <ul class="mt-5">
-                  <li class="list-group-item"><span>&#10004;</span> 7 Chapter</li>
-                  <hr>
-                  <li class="list-group-item">&#10004; Explained Details</li>
-                  <hr>
-                  <li class="list-group-item">&#10004; Clear Understanding</li>
-                  <hr>
-                  <li class="list-group-item">&#10004; Best Practices</li>
-              </ul>
-              <button type="button" class="btn rounded-pill bg-danger btn-lg mt-5">PURCHASE ON AMAZON<i class="bi bi-chevron-right"></i></button>
+      <div class="about">
+        <div class="container  mt-5 p-5">
+          <div class="row">
+            <div class="col-5">
+                <figure class="tab-img">
+                    <img src="./assets/images/kindle.png" class="img-fluid"alt="">
+                </figure>
+                <figure class="tab-text">
+                  <img src="./assets/images/book_page.png" class="img-fluid" alt="">
+                </figure>
+            </div>
+            <div class="col-5 p-5">
+                <h2>Look Inside The Book</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus sed, ut a aut quae velit eaque sequi labore culpa?eaque sequi labore culpa eaque sequi labore culpa.
+                <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus sed, ut a aut quae velit eaque sequi labore culpa?eaque sequi labore culpa eaque sequi labore culpa.
+                </p>
+                <ul class="mt-5">
+                    <li class="list-group-item"><span>&#10004;</span> 7 Chapter</li>
+                    <hr>
+                    <li class="list-group-item">&#10004; Explained Details</li>
+                    <hr>
+                    <li class="list-group-item">&#10004; Clear Understanding</li>
+                    <hr>
+                    <li class="list-group-item">&#10004; Best Practices</li>
+                </ul>
+                <button type="button" class="btn rounded-pill bg-danger btn-lg mt-5 text-white">PURCHASE ON AMAZON<i class="bi bi-chevron-right"></i></button>
+            </div>
           </div>
         </div>
       </div>
       <!-- about item -->
       <div class="container about item mt-5">
-        <div class="row text-center m-5">
+        <div class="row text-center m-5 bg-se">
           <div class="col-4 m-2  about-item-1">
             <i class="bi bi-mic text-danger"></i>
               <h2>Exprience</h2>
@@ -127,11 +132,11 @@
           </div>
         </div>
       </div>
-      <section>
-        <div class="container ">
+      <!-- About-announcement part-->
+      <section id="about-announcement">
+        <div class="container mt-5 p-5">
           <div class="row p-5">
             <div class="col-2">
-
             </div>
             <div class="col-8 text-center">
               <h1>Lorem ipsum, dolor sit amet <br>
@@ -145,7 +150,8 @@
           </div>
         </div>
       </section>
-      <section class="container chapter">
+      <!-- Chapter part -->
+      <section class="container chapter mt-5 p-5">
         <div class="row">
           <div class="col-6">
             <h2 class="fs-1">Full Chapter Overview</h2>
@@ -195,7 +201,9 @@
           </div>
         </div>
       </section>
+      <!-- Review part-->
       <section id="review">
+        <div class="review-bg"></div>
         <div class="container ">
           <div class="review">
             <div class="row">
@@ -208,7 +216,7 @@
         </div>
         <div class="review-item">
           <div class="container mb-5">
-            <div class="row text-center border rounded mb-5">
+            <div class="row text-center bg-white border rounded mb-5">
               <div class="col-4 p-4">
                 <div class="re-image">
                   <img src="./assets/images/test-1.jpeg" class="rounded-circle" alt="">
@@ -259,8 +267,9 @@
         </div>
       </section>
     </section>
+    <!-- Device part -->
     <section id="device">
-      <div class="container mt-5 pb-5">
+      <div class="container mt-5 p-5">
         <h2>Read it on your favorite device</h2>
         <div class="row">
           <div class="col-6 ">
@@ -302,11 +311,12 @@
                 <img src="./assets/images/home-1.jpeg" class="img-fluid img-thumbnail" alt="" width="400px">
               </div>
             </div>
-            <div class="col-8">
-              <div class="writer-text">
+            <div class="col-8 mt-5">
+              <div class="writer-text-bg"></div>
+              <div class="writer-text m-5">
                 <div class="writer-content">
-                  <h2>Yasin Arafat</h2>
-                  <p>A technical Writer</p>
+                  <h2 class="fs-1">Yasin Arafat</h2>
+                  <p>- A technical Writer</p>
                   <p>Do ou want to be even more successful? Learn to love learn and growth. The more effort you pu into improving your skills, the bigger the payoff you will get.</p>
                   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking a is layout.</p>
                   <div class="">
@@ -319,9 +329,10 @@
         </div>
       </div>
     </section>
+    <!-- Award part -->
     <section id="award">
       <div class="award">
-        <div class="container">
+        <div class="container mt-5 p-5 mb-5">
           <div class="row">
             <div class="col-8 mx-auto">
               <div class="award-text text-center p-5">
@@ -360,16 +371,17 @@
         </div>
       </div>
     </section>
+    <!-- Books part -->
     <section id="books">
-      <div class="books">
-        <div class="container ">
+      <div class="books mt-5">
+        <div class="container mt-5">
           <div class="row">
             <div class="col-6 mx-auto">
               <h2 class="text-center">Others books by author</h2>
               <p class="text-center px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti neque eveniet quaerat soluta debitis.</p>
             </div>
           </div>
-          <div class="book-img mt-5 mb-5">
+          <div class="book-img pb-5 mt-5 mb-5">
             <div class="row">
               <div class="col-3">
                 <img src="./assets/images/b-1.jpeg" class="img-fluid" alt="">
@@ -389,9 +401,10 @@
       </div>
     </section>
     <hr>
+    <!-- Artical Part -->
     <section id="artical">
-      <div class="artical">
-        <div class="container">
+      <div class="artical mt-5 pb-5">
+        <div class="container mb-5">
           <div class="row">
             <div class="col-6 mx-auto">
               <div class="artical-text">
@@ -422,7 +435,80 @@
         </div>
       </div>
     </section>
-    </main>
+    <!-- Contact us part -->
+    <section id="contact">
+      <div class="contact pt-5">
+        <div class="contact-us mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-8 mx-auto">
+                <h2 class="text-center">Contact Us</h2>
+                <p class="text-center px-3">Wheather your have questios or you would like to say hello, contact us. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, recusandae? </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-items container mt-5 pb-5 ">
+          <div class="row mb-5 pb-5">
+            <div class="col-4">
+              <div class="contact-item bg-white text-center p-4">
+                <a href="#"><i class="bi bi-headset icon fs-2"></i></a>
+                <p class="m-0">Contact Quickly</p>
+                <h5>+23-680217684</h5>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="contact-item bg-white text-center  p-4">
+                <a href="#"><i class="bi bi-geo-alt icon fs-2"></i></a>
+                <p class="m-0">Email</p>
+                <h5>startor@support.com</h5>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="contact-item bg-white text-center location p-4">
+                <a href="#"><i class="bi bi-envelope icon fs-2"></i></a>
+                <p class="m-0">Location</p>
+                <h5>397 Lake forest drive street USA </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer Part -->
+  <footer>
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="footer-widget d-flex">
+            <div class="col-6">
+              <h3>Influencer</h3>
+              <p class="fs-5">Each theme featured at the Bootstrap marketplacee has been reviewed by Bootstrap's creators. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-6 ps-5">
+              <h3>Get up to 20% Discount</h3>
+              <input type="text" placeholder="Put your email address" class="border"> <br>
+              <a href="#" class="btn footer-btn text-uppercase border rounded-pill p-3 mt-3 bg-secondary text-white">Download now <i class="bi bi-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <!-- Main footer -->
+        <div class="main-footer pb-3">
+          <div class="main-footer-item d-flex mt-4">
+            <div class="col-6">
+              <p>&copy; Copyright <span class="text-danger fs-4">2023</span> All rights reserved By Mehedi Hasan Robin</p>
+            </div>
+            <div class="col-6 text-end">
+              <div class="img">
+                <img src="./assets/images/cards-3.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </footer>
       <!-- bootstrap js -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

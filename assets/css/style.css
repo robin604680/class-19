@@ -8,6 +8,19 @@ header{
     height: 600px;
     background-color: #F4F7FC;
 }
+.abuot{
+    position: relative;
+}
+.tab-text{
+    position: absolute;
+    margin-top: -667px;
+    margin-left: 75px;
+}
+.tab-text img{
+    width: 300px;
+    height: 550px;
+}
+
 .about-item-1 {
     width: 300px;
     height: 250px;
@@ -18,16 +31,62 @@ header{
 .about-item-1 .bi{
     font-size: 50px;
 }
+#about-announcement {
+    background-color: #F4F7FC;
+
+}
+
 .chapter-1{
     margin: 10px;
 }
 .chapter-item-2{
-    margin-top: 100px;
+    margin-top: 133px;
 }
+#review{
+    position: relative;
+}
+.review-bg{
+    position: absolute;
+    background-color: #F4F7FC;
+    width: 100%;
+    height: 300px;
+    top: 500px;
+    z-index: -99999;
+}
+#writer{
+    position: relative;
+}
+.writer-text-bg{
+    position: absolute;
+    background-color: #F4F7FC;
+    width: 100%;
+    height: 650px;
+    top: 0px;
+    left: 250px;
+    z-index: -99999;
+    border-radius: 10px;
+}
+.contact{
+    background-color: #F4F7FC;
+    width: 100%;
+}
+.contact-item{
+
+}
+
 #device{
-    margin-top: 200px;
+   
 }.award-item {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     text-align: center;
     padding: 25px 0;
+}
+.footer-widget input{
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 10px 5px;
+    border: 1px solid #fff;
+    color: #B1B3BD;
 }
