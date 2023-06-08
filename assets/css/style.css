@@ -13,12 +13,12 @@ header{
 }
 .tab-text{
     position: absolute;
-    margin-top: -667px;
-    margin-left: 75px;
+    margin-top: -625px;
+    margin-left: 60px;
 }
 .tab-text img{
     width: 300px;
-    height: 550px;
+    height: 500px;
 }
 
 .about-item-1 {
@@ -52,6 +52,9 @@ header{
     height: 300px;
     top: 500px;
     z-index: -99999;
+}
+#device{
+    margin-top: 200px;
 }
 #writer{
     position: relative;
